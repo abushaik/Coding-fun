@@ -15,7 +15,6 @@ int main()
       r[begin] = s[end]; //copy reverse string in a new string
       end--;
    }
-   r[begin] = '\0';
    printf("%s\n", r);
    return 0;
 
