@@ -33,7 +33,7 @@ void print_all()
 
 int main()
 {
-    insert_data(10,'!','@');
+    insert_data(1,'!','@');
     print_all();
 }
 
