@@ -8,16 +8,16 @@ void main()
 	printf("Enter the String : ");
 	gets(str);
 	len=strlen(str);
-    if(str[0]=='/' && str[1]=='*' && str[len-1]=='/' && str[len-2]=='*' )
-    {
-        printf("Comment");
-    }
-    else if(str[0]=='/' && str[1]=='/')
-    {
-        printf("Comment");
-    }
-    else {
-        printf("No");
-    }
-	getch();
+        if(str[0]=='/' && str[1]=='*' && str[len-1]=='/' && str[len-2]=='*' )
+        {
+           printf("Comment");
+        }
+        else if(str[0]=='/' && str[1]=='/')
+        {
+          printf("Comment");
+        }
+        else {
+           printf("No");
+        }
+	  getch();
 }
