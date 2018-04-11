@@ -12,20 +12,20 @@ void main()
 	{
 		if(str[i]>='a' && str[i] <='z' || str[i]>='A' && str[i] <='Z')
 		{
-           printf("Alphabet");
+                   printf("Alphabet");
 		}
 
 		else if(str[i]=='+' || str[i] =='-' || str[i] =='*' || str[i] =='/'){
-           printf("Operator");
+                    printf("Operator");
 		}
 		else if(str[i]=='@' || str[i] =='#' || str[i] =='$' || str[i] =='%' || str[i] =='^' || str[i] =='&'){
 		    printf("Syntax");
 		}
 		else if(str[i]==' '){
-            printf("Whitespace");
+                    printf("Whitespace");
 		}
 		else{
-            printf("Digit");
+                   printf("Digit");
 		}
 	}
 	getch();
