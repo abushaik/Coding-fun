@@ -12,7 +12,7 @@ void main()
 	{
 		if(str[i]>='a' && str[i] <='z' || str[i]>='A' && str[i] <='Z' )
 		{
-            printf("Yes alphabet");
+                    printf("Yes alphabet");
 		}
 		else{
 		    printf("No");
