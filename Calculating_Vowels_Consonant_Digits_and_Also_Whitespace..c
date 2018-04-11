@@ -12,18 +12,18 @@ void main()
 	{
 		if(str[i]>='a' && str[i] <='z' || str[i]>='A' && str[i] <='Z')
 		{
-           a++;
-           if (str[i]=='a' || str[i] =='e' || str[i] =='i' || str[i] =='o' || str[i] =='u' || str[i] =='A' || str[i] =='E' || str[i] =='I' || str[i] =='O' || str[i] =='U'){
-              v++;
-		   }
-		   else{
-            c++;
-		   }
+                     a++;
+                     if (str[i]=='a' || str[i] =='e' || str[i] =='i' || str[i] =='o' || str[i] =='u' || str[i] =='A' || str[i] =='E' || str[i] =='I' || str[i] =='O' || str[i] =='U'){
+                        v++;
+		    }
+		    else{
+                        c++;
+		    }
 
 		}
 
 		else if(str[i]==' '){
-            w++;
+                    w++;
 		}
 		else{
 		    d++;
