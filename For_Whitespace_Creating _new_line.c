@@ -12,7 +12,7 @@ void main()
 	{
 		if(str[i]==' ')
 		{
-           str[i]= '\n';
+                   str[i]= '\n';
 		}
 	}
 	printf("String after removing spaces = %s\n", str);
