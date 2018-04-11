@@ -4,7 +4,7 @@ int main()
     char a;
     char op;
     char b;
-    int i,j;
+
     printf("Enter 1st number?\n");
     a= getchar();
     if(a>='a' && a<='z' || a>='A' && a<='Z')
@@ -36,6 +36,8 @@ int main()
     }
     else
         printf("Wrong input \n");
+   
+    return 0;
 
 
 }
